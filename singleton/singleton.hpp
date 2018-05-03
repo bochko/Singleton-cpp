@@ -3,6 +3,9 @@
 
 namespace bochko {
 	namespace patterns {
+		/**
+		 * Classic thread-unsafe, interrupt-unsafe singleton.
+		 */
 		class singleton {
 		private:
 			static singleton *instance;
